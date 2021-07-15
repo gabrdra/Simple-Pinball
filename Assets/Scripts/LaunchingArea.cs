@@ -11,7 +11,7 @@ public class LaunchingArea : MonoBehaviour
     {
         if(other.gameObject == ram)
         {
-            Debug.Log(Vector3.forward * maximumForce * ram.GetComponent<Ram>().releaseT);
+            //Debug.Log(Vector3.forward * maximumForce * ram.GetComponent<Ram>().releaseT);
             ball.GetComponent<Rigidbody>().AddForce(Vector3.forward * maximumForce * ram.GetComponent<Ram>().releaseT);
             ram.GetComponent<Ram>().releaseT = 0;
         }
