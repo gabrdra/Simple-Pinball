@@ -62,7 +62,7 @@ MeshRenderer:
   m_Materials:
   - {fileID: -8832125418300170086, guid: c61b462e45cb1964f88d1b74f8f2787e, type: 3}
   - {fileID: 6177219871393204526, guid: c61b462e45cb1964f88d1b74f8f2787e, type: 3}
-  - {fileID: 3388763688854031452, guid: c61b462e45cb1964f88d1b74f8f2787e, type: 3}
+  - {fileID: 2100000, guid: f6d1cf37f861acb4e853f31b66bf106f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -111,3 +111,5 @@ MonoBehaviour:
   ball: {fileID: 4960035380013835917, guid: 67c0d6e106f35a64ca6d8e7dbd590d58, type: 3}
   boostForce: 300
   directionOfBoost: {x: 0, y: 0, z: 1}
+  stats: {fileID: 11400000, guid: 81fb4d26f1f607145b6d0b8c9b5052c2, type: 2}
+  score: 100

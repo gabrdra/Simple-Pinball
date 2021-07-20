@@ -59,6 +59,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ball: {fileID: 4960035380013835917, guid: 67c0d6e106f35a64ca6d8e7dbd590d58, type: 3}
   teleportation: {fileID: 0}
+  stats: {fileID: 11400000, guid: 81fb4d26f1f607145b6d0b8c9b5052c2, type: 2}
+  score: 200
 --- !u!1 &4157433363197575533
 GameObject:
   m_ObjectHideFlags: 0
