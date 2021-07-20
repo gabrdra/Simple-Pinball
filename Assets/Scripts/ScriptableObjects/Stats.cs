@@ -4,6 +4,6 @@
 public class Stats : ScriptableObject
 {
     public int score;
-    public int highScore;
+    public int[] highScores;
     public int lives = 3;
 }

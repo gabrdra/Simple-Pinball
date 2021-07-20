@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -19,9 +20,8 @@ public class GameManager : MonoBehaviour
         stats.lives--;
         if(stats.lives < 0)
         {
-            if (stats.score > stats.highScore)
-                stats.highScore = stats.score;
-            Debug.Log("gameover");
+            stats.highScores[5] = stats.score;
+            SceneManager.LoadScene("GameOver");
         }
         ball.transform.position = spawnPosition;
         barrier.SetActive(false);
